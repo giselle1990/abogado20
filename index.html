@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan Delights</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-leaf"></i> Vegan Delights</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#recipes">Recetas</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li>
+                        <button id="cart-button">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span id="cart-count">0</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Descubre el Sabor de la Naturaleza</h2>
+            <p>Deliciosas opciones veganas para cada momento del día</p>
+        </section>
+
+        <section id="menu">
+            <h2>Nuestro Menú</h2>
+            <div class="menu-grid">
+                <!-- Los elementos del menú se agregarán dinámicamente con JavaScript -->
+            </div>
+        </section>
+
+        <section id="recipes">
+            <h2>Recetas para Inspirarte</h2>
+            <div class="recipes-grid">
+                <div class="recipe">
+                    <h3>Lasaña de Verduras</h3>
+                    <p>Dificultad: Media</p>
+                    <p>Tiempo: 45 min</p>
+                    <button>Ver Receta</button>
+                </div>
+                <div class="recipe">
+                    <h3>Curry de Garbanzos</h3>
+                    <p>Dificultad: Fácil</p>
+                    <p>Tiempo: 30 min</p>
+                    <button>Ver Receta</button>
+                </div>
+                <div class="recipe">
+                    <h3>Tarta de Manzana Vegana</h3>
+                    <p>Dificultad: Difícil</p>
+                    <p>Tiempo: 60 min</p>
+                    <button>Ver Receta</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <div class="about-content">
+                <p>En Vegan Delights, nos apasiona ofrecer deliciosas opciones de comida vegana que no solo son buenas para ti, sino también para el planeta. Nuestro equipo de chefs expertos trabaja arduamente para crear platos innovadores y llenos de sabor que demuestran lo increíble que puede ser la cocina basada en plantas.</p>
+                <p>Utilizamos ingredientes frescos y de origen local siempre que es posible, apoyando a los agricultores de nuestra comunidad y reduciendo nuestra huella de carbono. ¡Únete a nosotros en este viaje hacia un estilo de vida más saludable y sostenible!</p>
+            </div>
+        </section>
+
+        <section id="instagram-feed">
+            <h2>Síguenos en Instagram</h2>
+            <div class="instagram-grid">
+                <!-- Las imágenes de Instagram se agregarán dinámicamente con JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <div id="cart" class="cart">
+        <h2>Carrito</h2>
+        <div id="cart-items"></div>
+        <p id="cart-total">Total: $0.00</p>
+        <button id="checkout-button">Realizar Pedido</button>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>Vegan Delights</h3>
+                    <p>Alimentando un mundo mejor, un plato a la vez.</p>
+                </div>
+                <div>
+                    <h4>Contáctanos</h4>
+                    <p>Email: info@vegandelights.com</p>
+                    <p>Teléfono: (123) 456-7890</p>
+                </div>
+                <div>
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2023 Vegan Delights. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
